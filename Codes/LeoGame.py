@@ -26,6 +26,8 @@ h.color("red")
 t.speed(0)
 screen.update()
 
+screen.bgpic('Planebackground.png')
+
 t.pu()
 t.goto(0,-220)
 t.showturtle()
@@ -33,7 +35,7 @@ t.setheading(90)
 
 screen.title("the coolest game you have ever seen")
 
-for x in range(1):
+
 
 def medium():
                  
@@ -41,7 +43,8 @@ def medium():
     m.goto(0,550)
     m.showturtle()
     m.setheading(270)
-    m.fd(x*1050)
+    m.fd(1050)
+  
 
 def medium2():
     
@@ -54,7 +57,7 @@ def medium2():
     
     
     m.setheading(270)
-    m.fd(x*1050)
+    m.fd(1050)
 
 def medium3():
     
@@ -63,7 +66,7 @@ def medium3():
     m.showturtle()
     
     m.setheading(270)
-    m.fd(x*1050)
+    m.fd(1050)
 
 def easy():
     
