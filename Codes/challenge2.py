@@ -1,4 +1,4 @@
-#           Leo Coding challenge
+#          e Leo Coding challenge
 # 2 variables, print which is higher/the same - completed
 # 3 var, a/b/c, print in order from largest to smallest -completed
 a = 7
