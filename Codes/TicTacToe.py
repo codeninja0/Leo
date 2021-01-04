@@ -53,6 +53,7 @@ def board():
     drawline(0,200)
     drawline(100,200)
 board()
+
 funcgoto(-300,250, "Tic Tac Toe", '')
 
 
@@ -127,58 +128,58 @@ def supermouseclick(x,y):
 
 
 
-        if center == middle_left == middle_right == 'X':
-            t.pencolor("red")
-            funcgoto(-280,-300,"O go BOOM! 💥",'X wins')
-        elif center == top_left == bottom_right == 'X':
-            t.pencolor("red")
-            funcgoto(-280,-300,"O go BOOM! 💥",'X wins')
-        elif center == top_right == bottom_left == 'X':
-            t.pencolor("red")
-            funcgoto(-280,-300,"O go BOOM! 💥",'X wins')
-        elif center == top_middle == bottom_middle == 'X':
-            t.pencolor("red")
-            funcgoto(-280,-300,"O go BOOM! 💥",'X wins')
-        elif middle_left == top_left == bottom_left == 'X':
-            t.pencolor("red")
-            funcgoto(-280,-300,"O go BOOM! 💥",'X wins')
-        elif middle_right == top_right == bottom_right == 'X':
-            t.pencolor("red")
-            funcgoto(-280,-300,"O go BOOM! 💥",'X wins')
-        elif bottom_middle == bottom_left == bottom_right == 'X':
-            t.pencolor("red")
-            funcgoto(-280,-300,"O go BOOM! 💥",'X wins')
-        elif top_middle == top_left == top_right == 'X':
-            t.pencolor("red")
-            funcgoto(-280,-300,"O go BOOM! 💥",'X wins')
-        if center == middle_left == middle_right == 'O':
-            t.pencolor("red")
-            funcgoto(-280,-300,"X go BOOM! 💥",'O wins')
-        elif center == top_left == bottom_right == 'O':
-            t.pencolor("red")
-            funcgoto(-280,-300,"X go BOOM! 💥",'O wins')
-        elif center == top_right == bottom_left == 'O':
-            t.pencolor("red")
-            funcgoto(-280,-300,"X go BOOM! 💥",'O wins')
-        elif center == top_middle == bottom_middle == 'O':
-            t.pencolor("red")
-            funcgoto(-280,-300,"X go BOOM! 💥",'O wins')
-        elif middle_left == top_left == bottom_left == 'O':
-            t.pencolor("red")
-            funcgoto(-280,-300,"X go BOOM! 💥",'O wins')
-        elif middle_right == top_right == bottom_right == 'O':
-            t.pencolor("red")
-            funcgoto(-280,-300,"X go BOOM! 💥",'O wins')
-        elif bottom_middle == bottom_left == bottom_right == 'O':
-            t.pencolor("red")
-            funcgoto(-280,-300,"X go BOOM! 💥",'O wins')
-        elif top_middle == top_left == top_right == 'O':
-            t.pencolor("red")
-            funcgoto(-280,-300,"X go BOOM! 💥",'O wins')
-        
+    if center == middle_left == middle_right == 'X':
+        t.pencolor("red")
+        funcgoto(-280,-300,"O go BOOM! 💥",'X wins')
+    elif center == top_left == bottom_right == 'X':
+        t.pencolor("red")
+        funcgoto(-280,-300,"O go BOOM! 💥",'X wins')
+    elif center == top_right == bottom_left == 'X':
+        t.pencolor("red")
+        funcgoto(-280,-300,"O go BOOM! 💥",'X wins')
+    elif center == top_middle == bottom_middle == 'X':
+        t.pencolor("red")
+        funcgoto(-280,-300,"O go BOOM! 💥",'X wins')
+    elif middle_left == top_left == bottom_left == 'X':
+        t.pencolor("red")
+        funcgoto(-280,-300,"O go BOOM! 💥",'X wins')
+    elif middle_right == top_right == bottom_right == 'X':
+        t.pencolor("red")
+        funcgoto(-280,-300,"O go BOOM! 💥",'X wins')
+    elif bottom_middle == bottom_left == bottom_right == 'X':
+        t.pencolor("red")
+        funcgoto(-280,-300,"O go BOOM! 💥",'X wins')
+    elif top_middle == top_left == top_right == 'X':
+        t.pencolor("red")
+        funcgoto(-280,-300,"O go BOOM! 💥",'X wins')
+    if center == middle_left == middle_right == 'O':
+        t.pencolor("red")
+        funcgoto(-280,-300,"X go BOOM! 💥",'O wins')
+    elif center == top_left == bottom_right == 'O':
+        t.pencolor("red")
+        funcgoto(-280,-300,"X go BOOM! 💥",'O wins')
+    elif center == top_right == bottom_left == 'O':
+        t.pencolor("red")
+        funcgoto(-280,-300,"X go BOOM! 💥",'O wins')
+    elif center == top_middle == bottom_middle == 'O':
+        t.pencolor("red")
+        funcgoto(-280,-300,"X go BOOM! 💥",'O wins')
+    elif middle_left == top_left == bottom_left == 'O':
+        t.pencolor("red")
+        funcgoto(-280,-300,"X go BOOM! 💥",'O wins')
+    elif middle_right == top_right == bottom_right == 'O':
+        t.pencolor("red")
+        funcgoto(-280,-300,"X go BOOM! 💥",'O wins')
+    elif bottom_middle == bottom_left == bottom_right == 'O':
+        t.pencolor("red")
+        funcgoto(-280,-300,"X go BOOM! 💥",'O wins')
+    elif top_middle == top_left == top_right == 'O':
+        t.pencolor("red")
+        funcgoto(-280,-300,"X go BOOM! 💥",'O wins')
+    
     elif len(noclicknomore) == 9:
-            t.pencolor('light sky blue')
-            funcgoto(-250,-300,"Tie 🤝 ",'tie wins')
+        t.pencolor('light sky blue')
+        funcgoto(-250,-300,"Tie 🤝 ",'tie wins')
 screen.onclick(supermouseclick,1) #1 == left click on mouse  
 
 
