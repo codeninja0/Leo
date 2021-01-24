@@ -8,7 +8,7 @@ symbols = ["rock", "paper", "scissors"]
 for x in range(100):  
     computerchoice = random.choice(symbols)
 
-    choice = input("Choose Rock👊, Paper✋ or Scissors✌️: ").lower().strip()
+    choice = input("WASSUP! THIS IS ROCK, PAPER, SCISSORS!!! Choose Rock👊, Paper✋ or Scissors✌️: ").lower().strip()
     print("I did", computerchoice)
     
     if computerchoice == "rock" and choice == "paper":
@@ -28,4 +28,6 @@ for x in range(100):
 
     elif computerchoice == choice:
         print("TIE?!?!?! How did you do that? 🤔🤔🤔 I thought I was going to annihilate you!")
+    else:
+        print(f"[COMMAND NOT FOUND], what is {choice}? huh? Like WHAT IS THAT WORD?")
 
