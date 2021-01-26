@@ -17,7 +17,7 @@ for x in range(100):
     computerchoice = random.choice(symbols)
 
     choice = input("WHAT IS UP! THIS IS ROCK, PAPER, SCISSORS!!! Choose Rock👊, Paper✋ or Scissors✌️: ").lower().strip()
-    t.write("I did", computerchoice)
+    print("I did", computerchoice)
     
     if computerchoice == "rock" and choice == "paper":
         print("OH NO!! YOU WON!!")

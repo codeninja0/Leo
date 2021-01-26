@@ -6,29 +6,30 @@ t.hideturtle()
 screen = turtle.Screen()
 screen.tracer(10)
 t.pensize(10)
-t.pu()
-t.goto(-400, 200)
-t.pd
-t.write("Rock Paper Scissors",font=("comic sans ms", 80, "bold"))
+
+def write(x,y,text,size):
+    t.penup()
+    t.goto(x,y)
+    t.pendown()
+    t.write(text, font=("comic sans ms", size, "bold"))
+
+write(-400, 200, "Rock Paper Scissors", 80)
+
+
+
+
 def rocksymbol():
-    t.pu()
-    t.goto(-500, -50)
-    t.pd()
-    t.write("✊",font=("Arial", 100, "normal"))
+    write(-450, -50, "✊", 100)
 def papersymbol():
-    t.pu()
-    t.goto(-50, -50)
-    t.pd()
-    t.write("✋",font=("Arial", 100, "normal"))
+    write(-50, -50, "✋", 100)
 def scissorssymbol():
-    t.pu()
-    t.goto(300, -50)
-    t.pd()
-    t.write("✌️",font=("Arial", 100, "normal"))
+    write(300, -50, "✌️", 100)
+
 
 rocksymbol()
-scissorssymbol()
 papersymbol()
+scissorssymbol()
+
 
 
 screen.mainloop()
